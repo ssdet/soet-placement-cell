@@ -1,0 +1,70 @@
+body, html {
+  height: 100%;
+  margin:0px 0px 0px 0px;;
+}
+
+.banner{
+	background-color:white;
+	position:relative;
+	height: 25%;
+    width:100%
+}
+.mid-con{
+	position:relative;
+	top:-21.5px;
+	display:flex;
+	width:100%;
+	height:75%;
+}
+
+.left-banner{
+	background-color:#D2B4DE;
+	width:25%;
+	text-align:left;
+}
+
+
+.right-banner{
+	background-color:#AED6F1;
+	width:75%;
+}
+
+li{
+		list-style-type:none; 
+}
+#button {
+	width:80%;
+	background-color: white;
+	color: black;
+	margin-top:5px;
+	border: 2px solid #4CAF50; /* Green */
+	font-family: Serif, monospace;
+	padding:5px;
+}
+
+#title{
+	float:right;
+	color: black;
+	padding: 20px;
+	text-align:center;
+}
+
+#img_logo{
+	padding: 10px 0px 0px 30px;
+	border:5px;
+	width:12%;
+}
+
+#speak{
+	font-family: monospace, Arial, Helvetica;
+	padding:15px;
+}
+
+#job{
+	padding:0px 20px 5px 20px;
+	font-family:monospace, arial; 
+}
+
+p{
+	font-family: monospace,Arial, Helvetica;
+}

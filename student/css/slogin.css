@@ -1,0 +1,70 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+.procde{
+	border: 3px solid red;
+	border-radius: 15px 50px;
+	padding:20px;
+	margin:15px;
+	position:relative;
+}
+h2{
+	text-align:center;
+}
+.box1{
+	background-color: #7F00FF;
+	width:35%;
+	margin:20px 20px 20px 5%;
+	position:absolute;
+	padding:15px;
+}
+
+.box2{
+	background-color: gray;
+	width:35%;
+	margin:20px 20px 20px 55%;
+	padding:15px;
+}
+
+
+.image{
+	text-align:center;
+}
+
+label{
+	color:white;
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}

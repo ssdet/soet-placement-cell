@@ -1,0 +1,32 @@
+body, html {
+  height: 100%;
+  margin:0px 0px 0px 0px;;
+}
+
+.bg { 
+  background-image: url("bg_img.jpg");
+  height: 95%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+	width:1050px;
+	height:105.2%;
+	opacity:0.9;
+	margin: auto;
+	background:linear-gradient(35deg,#CCFFFF, #FFB6C1);
+}
+.banner{
+	background-color:white;
+	position:relative;
+	height: 25%;
+	width:auto;
+}
+
+.frame{
+	position:relative;
+	height: 92%;
+	width:100%;
+}
+

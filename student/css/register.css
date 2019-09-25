@@ -1,0 +1,43 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.box{
+	background-color: #7F00FF;
+	width:40%;
+	padding:10px;
+}
+
+.image{
+	text-align:center;
+}
+
+.box_m{
+	display:grid;
+}
+
+label{
+	color:white;
+}
+
+/* Full-width input fields */
+input, select{
+  padding: 5px 5px;
+  margin: 5px 0;
+  display: flex;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width:100%;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}

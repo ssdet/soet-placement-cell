@@ -1,0 +1,35 @@
+.first{
+	width:100%;
+	border: 2px dotted green;
+	border-radius: 15px 50px;
+	margin:10px 15px 30px 0px;
+	padding:5px;
+}
+
+#img1{
+	border: 0.5px dotted green;
+	border-radius: 15px 50px;
+	height:140px;
+	width:20%;
+	float:left;
+	margin-right:20px;
+}
+
+#img2{
+	border: 0.5px dotted green;
+	border-radius: 15px 50px;
+	height:100%;
+	width:20%;
+	float:right;
+	height:140px;
+	margin-left:20px;
+}
+
+h4{
+	padding-left:20px;
+	text-decoration: underline;
+}
+
+p{
+	padding: 5px;
+}

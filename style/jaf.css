@@ -1,0 +1,42 @@
+body, html {
+	font-family: Times New Roman, Times, serif;
+	height: 100%;
+	margin:0px;
+}
+
+.bg { 
+  background-image: url("bg_img.jpg");
+  height: 95%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#main-box{
+	padding:15px;
+	width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f0e68c;
+	opacity:0.9;
+}
+label {
+	width:50%;	
+}
+
+h4{
+	color:darkgreen;
+}
+
+input[type=text], select, textarea,input[type=email]{
+  width: 50%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=text], select, textarea, radio,input[type=email]{
+	display:grid;
+}
