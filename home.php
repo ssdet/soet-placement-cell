@@ -3,10 +3,16 @@
 <body>	
 <!--  Logo Banner Begin   -->
 	<div class="banner">
-		<img id="img_logo" src="img/logo.png"></img>
+		<div id="logo">
+			<a href="home.php"><img id="img_logo" src="img/logo.png"></img></a>
+		</div>
 		<div id="title">
-			<h1>Hemvati Nandan Bahuguna Garhwal University<br>
-			School of Engineering and Technology, Placement Portal</h1>
+			<h1>
+				Hemvati Nandan Bahuguna Garhwal University</br>
+				School of Engineering and Technology</br>
+				<span id="central_tag">(A Central University)</span></br>
+				<span id="placement_tag">Placement Portal</span>
+			</h1>
 		</div>
 	</div>
 <!--  Logo Banner Ending   -->

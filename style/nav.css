@@ -50,3 +50,28 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+#nav_logo{
+  height: 100%;
+  width: 100%;
+}
+
+#nav_logo a, img{
+  max-height: 21%;
+  max-width: 21%;
+  float: right;
+  padding: 0px 0px;
+  margin-right: 10px;
+}
+
+#nav_logo{
+  pointer-events: none;
+}
+
+#nav_logo a{
+  background-color: transparent;
+}
+
+#nav_logo img{
+  pointer-events: all;
+}

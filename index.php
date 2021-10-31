@@ -24,6 +24,9 @@
 			</div>
 			  <a href="academics.php" target="frame">Academics</a>
 			  <a href="contacts.php" target="frame">Contact Us</a>
+			  <div id="nav_logo">
+				  <a href="index.php"><img src="img/logo.png"></img></a>
+			  </div>
 		</div>
 		
 	<!--  Navigation Menu Ending   -->
